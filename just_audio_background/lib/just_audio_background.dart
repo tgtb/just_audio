@@ -808,7 +808,6 @@ class _PlayerAudioHandler extends BaseAudioHandler
     final controls = [
       if (hasPrevious) MediaControl.skipToPrevious,
       if (_playing) MediaControl.pause else MediaControl.play,
-      MediaControl.stop,
       if (hasNext) MediaControl.skipToNext,
     ];
     playbackState.add(playbackState.nvalue!.copyWith(
