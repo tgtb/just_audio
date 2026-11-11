@@ -1,3 +1,12 @@
+## 0.0.1-beta.17
+
+* Fix notification dismissal on player.stop (@rserro).
+
+## 0.0.1-beta.16
+
+* Support errorCode, errorMessage.
+* Bump min flutter version to 3.27.0, AGP to 8.5.2.
+
 ## 0.0.1-beta.15
 
 * Add setWebSinkId for web.

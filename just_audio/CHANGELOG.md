@@ -1,3 +1,28 @@
+## 0.10.2
+
+* Add Player.playerEvent.
+* Fix playing/playbackEvent emission order.
+* Fix rxdart errors on lower bound rxdart 0.26.0.
+* Fix MissingPluginException in dispose on iOS.
+
+## 0.10.1
+
+* Fix unhandled PlayerInterruptedException.
+* Fix duplicate load in active state.
+* Synchronize playlist API calls.
+* Improve position accuracy over Bluetooth on Android.
+
+## 0.10.0
+
+* New playlist API.
+* Deprecate ConcatenatingAudioSource - use playlist API instead.
+* Deprecate LoopingAudioSource - Use List.filled(N, source) instead.
+* Replace playbackEventStream.onError by errorStream.
+* Add errorCode/errorMessage to PlaybackEvent.
+* Add maxSkipsOnError constructor parameter.
+* Fix conversion between milliBel and deciBel (@Chaphasilor).
+* Bump min flutter version to 3.27.0, AGP to 8.5.2.
+
 ## 0.9.46
 
 * Fix SwiftPM support on macOS.
